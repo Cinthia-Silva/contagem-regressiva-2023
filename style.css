@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./imagens/2023.jpg);
+    color: whitesmoke;
+    user-select: none;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #00000080;
+    font-family: Sevillana, sans-serif;
+}
+
+.title {
+    font-size: 60px;
+    background: linear-gradient(-45deg, #eeaa52, #e73c6f, #2394d5, #2af3b7);
+    -webkit-background: linear-gradient(-45deg, #eeaa52, #e73c6f, #2394d5, #2af3b7);
+    -moz-background: linear-gradient(-45deg, #eeaa52, #e73c6f, #2394d5, #2af3b7);
+    -o-background: linear-gradient(-45deg, #eeaa52, #e73c6f, #2394d5, #2af3b7);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    -webkit-text-stroke: 10px transparent;
+    -moz-text-stroke: 10px transparent;
+    -o-text-stroke: 10px transparent;
+    width: 100%;
+}
+
+.countdown p {
+    font-size: 20px;
+}
+
+.countdown {
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.countdown h1 {
+    font-size: calc(10px + 8vw);
+    background-image: linear-gradient(-45deg, #fffb00, #f72564, #00a2ff, #00ffb3);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 8px transparent;
+    color: black;
+    width: 100%;
+}
+
+#days, #hours, #minutes, #seconds {
+    font-family: Lobster, sans-serif;
+    width: 150px;
+}
+
+
